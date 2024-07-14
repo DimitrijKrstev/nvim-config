@@ -27,8 +27,8 @@ return {
 				timeout = 500,
 			},
 			filters = {
-				dotfiles = true,
-				custom = {},
+				dotfiles = false,
+				custom = { ".DS_Store", ".git$" },
 			},
 			actions = {
 				open_file = {
