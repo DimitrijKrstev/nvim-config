@@ -13,6 +13,7 @@ return {
 			hijack_cursor = false,
 			hijack_netrw = true,
 			update_cwd = true,
+			sync_root_with_cwd = false,
 			update_focused_file = {
 				enable = true,
 				update_cwd = true,
@@ -20,6 +21,7 @@ return {
 			view = {
 				width = 30,
 				side = "left",
+				number = false,
 			},
 			git = {
 				enable = true,

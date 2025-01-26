@@ -25,7 +25,6 @@ return {
 			-- list of servers for mason to install
 			ensure_installed = {
 				"jdtls", -- java
-				"tsserver", -- javascript
 				"markdown_oxide", -- markdown
 				"rust_analyzer", -- rust
 				"html",
